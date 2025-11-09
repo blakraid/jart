@@ -12,7 +12,7 @@ public class Main {
         Line singleLine = Line.random(image.getWidth(),image.getHeight());
         singleLine.draw(image);
 
-        Point singlePoint = Point.random(5000, 5000);
+        Point singlePoint = Point.random(image.getWidth(), image.getHeight());
         singlePoint.draw(image);
 
         for (int i = 0; i < 50; i++) {
